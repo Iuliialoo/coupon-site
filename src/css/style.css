@@ -1,0 +1,275 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: #cccccc;
+}
+.search {
+    display: flex;
+    width: 690px;
+}
+.searchButton {
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #eeeeee;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-first-line{
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.input-field{
+    max-width: 690px;
+    width: 100%;
+    height: 38px;
+    border: 0.3rem solid black;
+    border-right: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    outline: none;
+}
+
+.photo-lk{
+    border-radius: 0.5rem;
+}
+
+.header_menu{
+    position: relative;
+}
+
+.header-menu-list{
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    display: none;
+    min-width: 300px;
+    background-color: black;
+    padding: 1.5rem;
+}
+
+
+.header_menu:hover .header-menu-list{
+    display: block;
+}
+
+.logo-img{
+    border-radius: 0.5rem;
+}
+
+.category{
+    display: flex;
+    padding-left: 2rem;
+    justify-content: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.category-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+
+    margin-right: 4rem;
+}
+
+.img-coupon{
+    max-width: 256px;
+    width: 100%;
+}
+
+.name-coupon{
+    font-size: 1.4rem;
+}
+
+.value-coupon{
+    font-size: 1.8rem;
+    color: red;
+}
+
+.category-coupon{
+    font-size: 1.4rem;
+}
+
+.coupons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+main{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon-item{
+    background: white;
+    border: 0.3rem solid black;
+    display: grid;
+    justify-content: center;
+    margin: 0 4rem 4rem 4rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.add-coupon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    width: 16rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+.header_second-line{
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.all-form{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-form{
+    font-size: 2rem;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+}
+
+select,
+textarea,
+input{
+    height: 100px;
+    width: 500px;
+    margin-bottom: 4rem;
+}
+
+.not-100px{
+    height: 30px;
+}
+
+.buy-coupon-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    width: 16rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+.text-buy-coupon{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-coupon-content{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.like-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(208, 76, 76);
+    width: 9.4rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 0.6rem;
+}
+
+.like{
+    font-size: 1.8rem;
+}
+
+.delete-button-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    width: 9.4rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.edit_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #feee01;
+    color: black;
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    margin-top: 0.6rem;
+}
